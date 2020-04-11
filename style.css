@@ -1,0 +1,36 @@
+body {
+  background: #beffe6;
+  align-items: center;
+  justify-content: center;
+  font-family: courier;
+  color: #000;
+  -webkit-font-smoothing: none;
+  font-smoothing: none;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+a {
+  border-bottom: 2px solid #ff72a0;
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  margin: 1em 0;
+}
+
+ul {
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
