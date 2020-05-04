@@ -4,8 +4,6 @@ body {
   justify-content: center;
   font-family: courier;
   color: #000;
-  -webkit-font-smoothing: none;
-  font-smoothing: none;
   text-transform: uppercase;
   letter-spacing: 0.4em;
   font-size: 14px;
