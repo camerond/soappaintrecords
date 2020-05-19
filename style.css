@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #beffe6;
   align-items: center;
@@ -6,10 +10,10 @@ body {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.4em;
-  font-size: 14px;
+  font-size: 1.6rem;
   text-align: center;
   line-height: 1.6;
-  padding: 10px;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -53,12 +57,55 @@ h3 {
   margin: 0;
 }
 
-.catalogue > ul > li:before {
-  content: '—';
+.catalogue > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalogue > ul > li {
+  flex: 1;
+  min-width: 40rem;
+  max-width: 60rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.catalogue__album {
+  box-sizing: border-box;
+  font-size: 0.8em;
+  background: rgba(255,255,255,.3);
+  padding: 1em 0;
+}
+
+[data-spaint-00012] h3 {
+  text-transform: lowercase;
+}
+
+.catalogue__album small {
   display: block;
-  color: #000;
-  margin: 2em 0;
-  opacity: 0.2;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.catalogue__album img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  border: 1rem solid #fff;
+}
+
+.catalogue__album h4 {
+  margin: 0 0 0.5em 0;
+}
+
+.catalogue__release {
+  font-size: 0.9em;
+}
+
+.catalogue__album ul {
+  margin: 1em 0;
 }
 
 .catalogue li li {
@@ -73,7 +120,7 @@ h3 {
 
 .footer {
   margin: 5em 0;
-  font-size: 11px;
+  font-size: 1em;
 }
 
 .catalogue__blurb {
