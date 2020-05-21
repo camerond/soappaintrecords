@@ -5,7 +5,7 @@ const albumData = [
     links: [
     ],
     blurb: '',
-    releaseDate: 'Coming Soon',
+    releaseDate: '5/29/2020',
   },
   {
     title: 'a garden',
@@ -14,7 +14,7 @@ const albumData = [
       'https://stcethleann.bandcamp.com/album/a-garden',
     ],
     blurb: 'Flowers, tape hiss, and the first day of spring',
-    releaseDate: '5/15/2020',
+    releaseDate: '5/22/2020',
   },
   {
     title: 'Goody Gel',
