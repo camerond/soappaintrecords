@@ -17,6 +17,11 @@ body {
   margin: 0;
 }
 
+.site-wrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 a {
   border-bottom: 2px solid #ff72a0;
   color: #000;
@@ -63,11 +68,19 @@ h3 {
 }
 
 .catalogue > ul > li {
+  box-sizing: border-box;
   flex: 1;
-  min-width: 40rem;
+  min-width: 35rem;
   max-width: 60rem;
   padding: 1rem;
   margin: 0;
+}
+
+ @media only screen and (max-width: 400px) {
+  .catalogue > ul > li {
+    min-width: 0;
+    flex: 0 0 100%;
+  }
 }
 
 .catalogue__album {
@@ -129,4 +142,5 @@ h3 {
   margin: 0.5em auto;
   max-width: 30rem;
   letter-spacing: 0;
+  padding: 0 0.5em;
 }
