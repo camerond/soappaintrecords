@@ -12,6 +12,7 @@ const albumData = [
     artist: 'st. cethleann',
     links: [
       'https://stcethleann.bandcamp.com/album/a-garden',
+      'https://open.spotify.com/album/1qWrdPleeWdtl097UEvtWm?si=r1v2QX-jTn6-u2XA_p0y3A',
     ],
     blurb: 'Flowers, tape hiss, and the first day of spring',
     releaseDate: '5/22/2020',
