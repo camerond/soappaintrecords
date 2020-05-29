@@ -5,7 +5,7 @@ const albumData = [
     links: [
       'https://open.spotify.com/album/7u9z8V5dQRAIm9OGgxh0Ly?si=K7m3Cv3TSNeXoRPJq5JhqQ',
       'https://theronhumiston.bandcamp.com/album/heartbeating-the-executor',
-    ]
+    ],
     blurb: 'Uncompromising modal rituals',
     releaseDate: '5/29/2020',
   },
