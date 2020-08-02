@@ -1,5 +1,14 @@
 const albumData = [
   {
+    title: 'Popsicat',
+    artist: 'Catsicle',
+    links: [
+      'https://catsicle.bandcamp.com/album/popsicat',
+    ],
+    blurb: 'Improv music scribbles from the mind of a 5-year-old whirlwind.',
+    releaseDate: '8/2/2020',
+  },
+  {
     title: 'Heartbeating the Executor',
     artist: 'Theron Humiston',
     links: [
