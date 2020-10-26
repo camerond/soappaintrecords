@@ -1,11 +1,22 @@
 const albumData = [
   {
+    title: 'Modus Ponens',
+    artist: 'Theron Humiston',
+    links: [
+      'https://theronhumiston.bandcamp.com/album/modus-ponens',
+      'https://open.spotify.com/album/7ktfiaCxpFG4f40yj7he2v?si=Sk05IM6mRRG7Vm4e46yNGg',
+    ],
+    blurb: 'A diptych of Carpenter-infused synthetic atmospheres',
+    releaseDate: '8/2/2020',
+  },
+  {
     title: 'Popsicat',
     artist: 'Catsicle',
     links: [
       'https://catsicle.bandcamp.com/album/popsicat',
+      'https://open.spotify.com/album/1DcWV47Plmlm1gckPL8lV2?si=YOY0umZhS9eQ5k4jNMrXuw',
     ],
-    blurb: 'Improv music scribbles from the mind of a 5-year-old whirlwind.',
+    blurb: 'Improv music scribbles from the mind of a 5-year-old whirlwind',
     releaseDate: '8/2/2020',
   },
   {
