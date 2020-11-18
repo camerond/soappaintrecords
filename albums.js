@@ -1,5 +1,15 @@
 const albumData = [
   {
+    title: "don't you want to come back",
+    artist: 'st. cethleann',
+    links: [
+      'https://stcethleann.bandcamp.com/album/dont-you-want-to-come-back',
+      'https://open.spotify.com/album/6DmiMyVzjoT11WkhGynwX0?si=ao51AUznS0qtOOQiVRBn7Q',
+    ],
+    blurb: 'for fans of Hiroshi Yoshimura and Neon Genesis Evangelion',
+    releaseDate: '11/7/2020',
+  },
+  {
     title: 'Modus Ponens',
     artist: 'Theron Humiston',
     links: [

@@ -90,6 +90,7 @@ h3 {
   padding: 1em 0;
 }
 
+[data-spaint-00016] h3,
 [data-spaint-00012] h3 {
   text-transform: lowercase;
 }
