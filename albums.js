@@ -1,5 +1,14 @@
 const albumData = [
   {
+    title: 'Heart To Your Death',
+    artist: 'Catsicle',
+    links: [
+      'https://catsicle.bandcamp.com/album/heart-to-your-death',
+    ],
+    blurb: 'More unfettered explosions from your favorite 5-year-old indie noise fiend',
+    releaseDate: '3/8/2021',
+  },
+  {
     title: "don't you want to come back",
     artist: 'st. cethleann',
     links: [
