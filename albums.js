@@ -1,9 +1,31 @@
 const albumData = [
   {
+    title: 'At Home',
+    artist: 'Catsicle',
+    links: [
+      'https://catsicle.bandcamp.com/album/at-home',
+    ],
+    blurb: 'Felix is now 7 and back with another album of noise, dreams, and musical stories',
+    releaseDate: '3/28/2023',
+  },
+  {
+    title: 'Die Twice',
+    artist: 'Seaxes',
+    links: [
+      'https://seaxes.bandcamp.com/album/die-twice',
+      'https://music.apple.com/us/album/die-twice-ep/1649978048',
+      'https://open.spotify.com/album/21JnsvABlIhqzv0gz7L69G?si=fIu0KMrATKSxp1OFxYkmuA',
+    ],
+    blurb: 'Second release from Seaxes; split with St. Louis\' Iron Linings',
+    releaseDate: '11/21/2022',
+  },
+  {
     title: 'Heart To Your Death',
     artist: 'Catsicle',
     links: [
       'https://catsicle.bandcamp.com/album/heart-to-your-death',
+      'https://open.spotify.com/album/2XSOta0YX6538nHP3Wze5x?si=stRkGJW5TWaLX_IfEBOHRQ',
+      'https://music.apple.com/us/album/heart-to-your-death/1666407777'
     ],
     blurb: 'More unfettered explosions from your favorite 5-year-old indie noise fiend',
     releaseDate: '3/8/2021',
@@ -14,6 +36,7 @@ const albumData = [
     links: [
       'https://stcethleann.bandcamp.com/album/dont-you-want-to-come-back',
       'https://open.spotify.com/album/6DmiMyVzjoT11WkhGynwX0?si=ao51AUznS0qtOOQiVRBn7Q',
+      'https://music.apple.com/us/album/dont-you-want-to-come-back-single/1538393777',
     ],
     blurb: 'for fans of Hiroshi Yoshimura and Neon Genesis Evangelion',
     releaseDate: '11/7/2020',
@@ -24,6 +47,7 @@ const albumData = [
     links: [
       'https://theronhumiston.bandcamp.com/album/modus-ponens',
       'https://open.spotify.com/album/7ktfiaCxpFG4f40yj7he2v?si=Sk05IM6mRRG7Vm4e46yNGg',
+      'https://music.apple.com/us/album/modus-ponens-ep/1536525489',
     ],
     blurb: 'A diptych of Carpenter-infused synthetic atmospheres',
     releaseDate: '8/2/2020',
@@ -34,6 +58,7 @@ const albumData = [
     links: [
       'https://catsicle.bandcamp.com/album/popsicat',
       'https://open.spotify.com/album/1DcWV47Plmlm1gckPL8lV2?si=YOY0umZhS9eQ5k4jNMrXuw',
+      'https://music.apple.com/us/album/popsicat/1536598122',
     ],
     blurb: 'Improv music scribbles from the mind of a 5-year-old whirlwind',
     releaseDate: '8/2/2020',
