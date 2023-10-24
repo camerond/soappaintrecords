@@ -8,7 +8,7 @@ const albumData = [
       'https://music.apple.com/us/album/october-demo-demo-single/1711884970',
     ],
     blurb: 'Two loud, desperate songs written by a small gang of anxious friends.',
-    releaseDate: '3/28/2023',
+    releaseDate: '10/12/2023',
   },
   {
     title: 'At Home',
@@ -271,7 +271,7 @@ function getImageTag(album, idx) {
 function getLinkText(link) {
   if (link.match(/spotify/)) return 'spotify';
   if (link.match(/bandcamp/)) return 'bandcamp';
-  if (link.match(/itunes/)) return 'itunes';
+  if (link.match(/apple/)) return 'apple music';
   return null;
 }
 
