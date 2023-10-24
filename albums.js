@@ -1,9 +1,22 @@
 const albumData = [
   {
+    title: 'October Demo',
+    artist: 'Teeth Kids',
+    links: [
+      'https://teethkids.bandcamp.com/album/october-demo',
+      'https://open.spotify.com/album/7MbxCMS3pGy39b6H4XZd5b?si=cgt67gMKQWi4aI2I93Ye1Q',
+      'https://music.apple.com/us/album/october-demo-demo-single/1711884970',
+    ],
+    blurb: 'Two loud, desperate songs written by a small gang of anxious friends.',
+    releaseDate: '3/28/2023',
+  },
+  {
     title: 'At Home',
     artist: 'Catsicle',
     links: [
       'https://catsicle.bandcamp.com/album/at-home',
+      'https://open.spotify.com/album/6J42UyfLBtCASWJs3yD8Av?si=7l2zhVSfSJWek9ACWRwglg',
+      'https://music.apple.com/us/album/at-home/1682373866',
     ],
     blurb: 'Felix is now 7 and back with another album of noise, dreams, and musical stories',
     releaseDate: '3/28/2023',
@@ -69,6 +82,7 @@ const albumData = [
     links: [
       'https://open.spotify.com/album/7u9z8V5dQRAIm9OGgxh0Ly?si=K7m3Cv3TSNeXoRPJq5JhqQ',
       'https://theronhumiston.bandcamp.com/album/heartbeating-the-executor',
+      'https://music.apple.com/us/album/heartbeating-the-executor/1514804292',
     ],
     blurb: 'Uncompromising modal rituals',
     releaseDate: '5/29/2020',
@@ -79,6 +93,7 @@ const albumData = [
     links: [
       'https://stcethleann.bandcamp.com/album/a-garden',
       'https://open.spotify.com/album/1qWrdPleeWdtl097UEvtWm?si=r1v2QX-jTn6-u2XA_p0y3A',
+      'https://music.apple.com/us/album/a-garden-ep/1513531112',
     ],
     blurb: 'Flowers, tape hiss, and the first day of spring',
     releaseDate: '5/22/2020',
@@ -89,6 +104,7 @@ const albumData = [
     links: [
       'https://goodygel.bandcamp.com/album/goody-gel',
       'https://open.spotify.com/album/3qHJrzTJRJazeZWp4Kdrhj?si=259no8yASbyLOrhFAhBmDg',
+      'https://music.apple.com/us/album/goody-gel/1507511394',
     ],
     blurb: 'The best kind of ramshackle hook-laden fire-escape filth-pop',
     releaseDate: '4/20/2020',
@@ -99,6 +115,7 @@ const albumData = [
     links: [
       'https://seaxes.bandcamp.com/album/seaxes',
       'https://open.spotify.com/album/0FZONF3kgL70UPtGvLtBNH?si=BpJbE_qHT1Cx3X398HObbQ',
+      'https://music.apple.com/us/album/seaxes-ep/1504332263',
     ],
     blurb: 'Paranoid, collision-like, logical-conclusion-of-this-sort-of-thing apocalypse rock',
     releaseDate: '3/17/2020',
@@ -109,6 +126,7 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/large-pizza-order',
       'https://open.spotify.com/album/5n211ETD6PI27PjAicwgD8?si=fVaY3T2_QfCFVksZSofnNA',
+      'https://music.apple.com/us/album/large-pizza-order/1511648918',
     ],
     blurb: 'The first Eyeball release featuring a full band – Beefheart-adjacent improv dance-rock from the mind of an 8-year-old',
     releaseDate: '3/26/2019',
@@ -119,6 +137,7 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/timed-for-challenge',
       'https://open.spotify.com/album/2pQP5wCdmsKccADDXf6FCG?si=Mz-cu4pSQrmHPKAAQmp0FQ',
+      'https://music.apple.com/us/album/timed-for-challenge/1507628906',
     ],
     blurb: 'More improvised guitar/drum sketches from a father/son duo',
     releaseDate: '8/14/2017',
@@ -129,6 +148,7 @@ const albumData = [
     links: [
       'https://redoinchicago.bandcamp.com/album/good-thing-that-happened',
       'https://open.spotify.com/album/46mqjQASMuW52SYPwYW1L0?si=ZTCr8fGcRQqiAGVqB3SZyg',
+      'https://music.apple.com/us/album/good-thing-that-happened/1469751090',
     ],
     blurb: 'Bleeps AND bloops from children, barely monitored by an adult',
     releaseDate: '2/9/2017',
@@ -157,6 +177,7 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/video-games',
       'https://open.spotify.com/album/1PWU17k2fAZjzr6vEsAgK4?si=JaT9atmASQG4cJ4ieMpTOQ',
+      'https://music.apple.com/us/album/video-games/1507400465',
     ],
     blurb: 'Archer turns 5 and Eyeball branches past instrumental improv / spoken word into 2-piece improvisational mayhem',
     releaseDate: '1/25/2016',
@@ -167,6 +188,7 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/pur-bop-awsovmw-2',
       'https://open.spotify.com/album/6j8pNkpg55THTPfPwAocfj?si=f-Xpv9CURAyP9JYVMqPeAQ',
+      'https://music.apple.com/us/album/pur-bop-awsovmw-2/1507854062',
     ],
     blurb: 'Drums / spoken word lyrical exploration / poetry / glimpse into the mind of a then-4-year-old',
     releaseDate: '12/9/2015',
@@ -177,7 +199,7 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/cake',
       'https://open.spotify.com/album/3EmYKYMlrW8kaqg9R52JAP?si=VOdPMHj9Q62K2ggj7tTOJA',
-      '',
+      'https://music.apple.com/us/album/cake/1507850564',
     ],
     blurb: "Eyeball's first full-length, guided by the whims of a very particular child",
     releaseDate: '3/21/2015',
@@ -188,21 +210,11 @@ const albumData = [
     links: [
       'https://eyeballrock.bandcamp.com/album/pie',
       'https://open.spotify.com/album/5INV10fnVRCFPAZINyFp23?si=3kb8_X3aQvqm2q02x6zDrg',
+      'https://music.apple.com/us/album/pie-ep/1469813384',
     ],
     blurb: "Eyeball's first foray into the realization that anyone can record anything",
     releaseDate: '3/21/2015',
   },
-  {
-    title: '',
-    artist: '',
-    links: [
-      '',
-      '',
-      '',
-    ],
-    blurb: '',
-    releaseDate: '3/21/2015',
-  }
 ];
 
 const tmpl = `
@@ -278,7 +290,7 @@ function generateLink(link) {
 }
 
 function getCatNumber(k) {
-  return `SPAINT-${(albumData.length - k - 1).toString().padStart(5, '0')}`;
+  return `SPAINT-${(albumData.length - k).toString().padStart(5, '0')}`;
 }
 
 function getReleaseDate(date) {
