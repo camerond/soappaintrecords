@@ -1,5 +1,16 @@
 const albumData = [
   {
+    title: 'Resolute Mantras Stimulate Principles',
+    artist: 'Night Office',
+    links: [
+      'https://nightoffice.bandcamp.com/album/resolute-mantras-stimulate-principles',
+      'https://music.apple.com/us/album/resolute-mantras-stimulate-principles/1728474532',
+      'https://open.spotify.com/album/47i1AiB4J879StltQNDAux?si=vRjHnJObS2azMVSOdr74GA',
+    ],
+    blurb: 'An ever-evolving soundtrack crafted to keep your personal dream services team working at peak efficiency in a modern nocturnal office environment',
+    releaseDate: '2/6/2023',
+  },
+  {
     title: 'October Demo',
     artist: 'Teeth Kids',
     links: [
