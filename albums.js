@@ -1,5 +1,27 @@
 const albumData = [
   {
+    title: 'Is This Loss? / Weight Remixes',
+    artist: 'Teeth Kids',
+    links: [
+      'https://teethkids.bandcamp.com/album/is-this-loss-weight-remixes',
+      'https://open.spotify.com/album/3c5GnAJYBIa1fHWEeySbZ0',
+      'https://music.apple.com/us/album/is-this-loss-weight-remixes-ep/1786553227',
+    ],
+    blurb: 'Teeth Kids songs slammed through a variety of brains and synthesizer setups.',
+    releaseDate: '11/11/2024',
+  },
+  {
+    title: 'Is This Loss? / Weight',
+    artist: 'Teeth Kids',
+    links: [
+      'https://teethkids.bandcamp.com/album/is-this-loss-weight',
+      'https://open.spotify.com/album/25aos7Keym9L8HuWw6XNRY',
+      'https://music.apple.com/us/album/is-this-loss-weight-single/1755469451',
+    ],
+    blurb: 'The first two actual studio tracks from Chicago\'s favorite 6-piece sludge metal outfit.',
+    releaseDate: '7/9/2024',
+  },
+  {
     title: 'Resolute Mantras Stimulate Principles',
     artist: 'Night Office',
     links: [
@@ -266,7 +288,7 @@ const templateTags = [
 ];
 
 function clean(str) {
-  return str.replace(/[^\w\s]/, '');
+  return str.replace(/([^\w\s]|\/)/gi, '').replace(/\s{2,}/gi, ' ');
 }
 
 function getImageTag(album, idx) {
@@ -275,7 +297,7 @@ function getImageTag(album, idx) {
   const src=`images/albums/${getCatNumber(idx)} - ${artist} - ${title} - 800x800.jpg`;
   return `<img
     src="${src.toLowerCase()}"
-    alt="${artist} - ${title} art"
+    alt="${album.artist} - ${album.title} art"
   />`
 }
 
