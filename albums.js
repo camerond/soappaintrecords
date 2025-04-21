@@ -1,5 +1,16 @@
 const albumData = [
   {
+    title: 'Hell to Tell',
+    artist: 'Pet Play',
+    links: [
+      'https://petplaychi.bandcamp.com/album/hell-to-tell',
+      'https://open.spotify.com/album/2GxzuFZ2oNTZPHpCpvA3Ar',
+      'https://music.apple.com/us/album/hell-to-tell-ep/1807076025',
+    ],
+    blurb: '',
+    releaseDate: '4/7/2025',
+  },
+  {
     title: 'Is This Loss? / Weight Remixes',
     artist: 'Teeth Kids',
     links: [
